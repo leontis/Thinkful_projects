@@ -1,5 +1,6 @@
 # Default is "World" if no variable provided on command line
-# This is an unwanted but committed change
+# Author: Neocles Leontis / nleontis@gmail.com
+
 name = ARGV.first || "World"
 
 puts "Hello, #{name}!"
