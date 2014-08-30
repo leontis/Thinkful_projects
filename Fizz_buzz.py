@@ -7,10 +7,9 @@ if len(sys.argv) == 1:
 		print "Enter a valid integer"
 			
 elif len(sys.argv) >1:
-		try:
-			n = int(sys.argv[1])
-
-		except ValueError:
+	try:
+		n = int(sys.argv[1])
+	except ValueError:
 			print "No valid integer! will use 100 ..." 
 			n = 100
 
